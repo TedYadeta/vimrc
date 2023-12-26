@@ -69,8 +69,14 @@ set history=1000
 
 " To automatically type any templates/one-liners I need for certain languages.
 
+" Awk
+:iabbrev awktmpl #!/usr/bin/awk
+
 " BaSH
 :iabbrev bashtmpl #!/bin/bash
+
+" C
+:iabbrev ctmpl #include<stdio.h>
 
 " Java
 :iabbrev javatmpl public class CLASSNAME {<cr><tab>public static void main(String[] args) {<cr><cr><tab>}<cr>}
