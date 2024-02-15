@@ -44,13 +44,15 @@ set history=1000
 :inoremap exx <esc><s-q>
 
 " Insert > Visual
-:inoremap vis <esc>
+:inoremap vsl <esc>
 
 " Insert > Visual Block
-:inoremap vib <esc><c-v>
+:inoremap vbl <esc><c-v>
 
 " Insert > Visual Line
-:inoremap vil <esc><s-v>
+:inoremap vln <esc><s-v>
+
+
 
 " II.c) Visual (Block/Line) Mode Shortcuts
 " ----------------------------------------
@@ -77,6 +79,9 @@ set history=1000
 
 " C
 :iabbrev ctmpl #include<stdio.h>
+
+" HTML
+:iabbrev htmltmpl <!DOCTYPE HTML><cr><HEAD><cr><TITLE>*</TITLE><cr></HEAD><cr><BODY><cr></BODY></HTML>
 
 " Java
 :iabbrev javatmpl public class CLASSNAME {<cr><tab>public static void main(String[] args) {<cr><cr><tab>}<cr>}
